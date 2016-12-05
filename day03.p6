@@ -11,4 +11,4 @@ for (lines) {
     }
 }
 
-say %p.keys.sort({%p{$_}.values.comb(/3/)}).tail
+say %p.keys.sort({%p{$_}.values.grep(3)}).tail
